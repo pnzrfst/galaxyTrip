@@ -1,0 +1,146 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url("assets/images/universo.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 40px;
+    height: 450px;
+    color: #fafaff;
+    margin: 0;
+}
+
+
+#itemsHeader #title{
+    font-size: 60px;
+}
+
+#itemsHeader .underline{
+    border-bottom: 5px solid #fafaff;
+}
+
+#itemsHeader #header-btn{
+    background-color: #E4E5C5;
+    color: #fafaff;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 40px;
+    font-size: medium;
+    font-family: D-DIN-Regular, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+#planetaTerra{
+    background-image: url("assets/images/terra.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: start;
+    justify-content: space-around;
+    padding: 10px 0 40px;
+    height: 450px;
+    color: #fafaff;
+    margin: 0;
+    padding: 10px 20px 10px;
+}
+
+#planetaTerra #tituloTerra{
+    margin: 0;
+    font-size: 100px;
+    text-shadow: 0 0 4px black;
+}
+
+#planetaTerra #terra-btn{
+    background-color: #8b93b6;
+    color: #fafaff;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 40px;
+    font-size: medium;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 3px gray;
+    
+}
+
+
+#planetaSaturno{
+    background-image: url("assets/images/saturno.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: start;
+    justify-content: space-around;
+    padding: 10px 0 40px;
+    height: 450px;
+    color: #fafaff;
+    margin: 0;
+    padding: 10px 20px 10px;
+}
+
+#planetaSaturno #tituloSaturno{
+    margin: 0px;
+    font-size: 100px;
+    text-shadow: 0 0 4px black;
+}
+
+#planetaSaturno #saturno-btn{
+    background-color: #aba291;
+    color: #fafaff;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 40px;
+    font-size: medium;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 3px gray;
+}
+
+
+#planetaMarte{
+    background-image: url("assets/images/marte.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: start;
+    justify-content: space-around;
+    padding: 10px 0 40px;
+    height: 450px;
+    color: #fafaff;
+    margin: 0;
+    padding: 10px 20px 10px;
+}
+
+#planetaMarte #tituloMarte{
+    
+    font-size: 100px;
+    text-shadow: 0 0 4px black;
+}
+
+#planetaMarte #marte-btn{
+    background-color: #c8ab8b;
+    color: #fafaff;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 40px;
+    font-size: medium;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 3px gray;
+}
+
