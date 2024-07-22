@@ -6,30 +6,43 @@
     <title>galaxyTrip</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header id="cabecalho">
         <section id="itemsHeader">
             <h1 id="title">galaxy<span class="underline">Trip</span></h1>
-            <input id="header-btn" type="button" value="aqui Muda" onclick="trocarImagem()"
-            onmouseover="mudarOpacidadeBotao(true)" onmouseout="mudarOpacidadeBotao(false)">
+            <button id="header-btn" type="button" onclick="trocarImagem()"
+            onmouseover="mudarOpacidadeBotao(true)" onmouseout="mudarOpacidadeBotao(false)">experimente</button>
         </section>
     </header>
 
     <main>
         <section class="opcoes">   
            <div id="planetaTerra">
-                <h3 id="tituloTerra">Terra</h3>
-                <input id="terra-btn" type="button" value="saibaMais">
+                <h3 id="titulo">Terra</h3>
+                <p class="explicarPlaneta">Terra: Onde moramos, brigamos pelo controle remoto e procuramos os óculos perdidos constantemente.</p>
+                <a href="pages/terra.html" target="_parent">
+                    <button id="terra-btn"
+                     type="submit">saibaMais</button></a>
            </div>
            <div id="planetaSaturno">    
-                <h3 id="tituloSaturno">Saturno</h3>
-                <input id="saturno-btn" type="button" value="saibaMais">
+                <h3 id="titulo"  onmouseover="vaiExplicarPlaneta(this)">Saturno</h3>
+                <p class="explicarPlaneta">Saturno: O gigante com anéis, o pimpão do sistema solar, ostentando joias cósmicas exclusivas.</p>
+                <a href="pages/saturno.html" target="_parent">
+                <button id="saturno-btn"
+                 type="submit">saibaMais
+                </button></a>
            </div>
            <div id="planetaMarte">
-                <h3 id="tituloMarte">Marte</h3>
-                <input id="marte-btn" type="button" value="saibaMais">
+                <h3 id="titulo">Marte</h3>
+                <p class="explicarPlaneta">Marte: Planeta vermelho, atração turística para selfies espaciais e desastres de colonização.</p>
+                <a href="pages/marte.html"><button id="marte-btn" 
+                type="submit">saibaMais
+                </button></a>   
            </div>
         </section>
     </main>
