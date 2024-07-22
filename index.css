@@ -19,7 +19,9 @@ header{
 
 
 #itemsHeader #title{
+    font-family: "Playfair Display", serif;
     font-size: 60px;
+    text-shadow: 0 0 5px #c0c0c5;
 }
 
 #itemsHeader .underline{
@@ -54,13 +56,14 @@ header{
     padding: 10px 20px 10px;
 }
 
-#planetaTerra #tituloTerra{
+#planetaTerra #titulo{
+    font-family: "Playfair Display", serif;
     margin: 0;
     font-size: 100px;
     text-shadow: 0 0 4px black;
 }
 
-#planetaTerra #terra-btn{
+#terra-btn{
     background-color: #8b93b6;
     color: #fafaff;
     border-radius: 45px;
@@ -90,13 +93,14 @@ header{
     padding: 10px 20px 10px;
 }
 
-#planetaSaturno #tituloSaturno{
+#planetaSaturno #titulo{
+    font-family: "Playfair Display", serif;
     margin: 0px;
     font-size: 100px;
     text-shadow: 0 0 4px black;
 }
 
-#planetaSaturno #saturno-btn{
+#saturno-btn{
     background-color: #aba291;
     color: #fafaff;
     border-radius: 45px;
@@ -125,13 +129,14 @@ header{
     padding: 10px 20px 10px;
 }
 
-#planetaMarte #tituloMarte{
-    
+#planetaMarte #titulo{
+    margin: 0;
+    font-family: "Playfair Display", serif;    
     font-size: 100px;
     text-shadow: 0 0 4px black;
 }
 
-#planetaMarte #marte-btn{
+#marte-btn{
     background-color: #c8ab8b;
     color: #fafaff;
     border-radius: 45px;
