@@ -1,5 +1,5 @@
 
-var imagemAtual = 1;
+var imagemAtual = 0;
 
 function trocarImagem(){
     
@@ -7,10 +7,10 @@ function trocarImagem(){
 
     if(imagemAtual == 1){
         header.style.backgroundImage = "url('assets/images/universo.jpg')";
-        imagemAtual = 2;
+        imagemAtual++;
     }else if(imagemAtual == 2){
         header.style.backgroundImage = "url('assets/images/universo2.jpg')";
-        imagemAtual = 3;
+        imagemAtual++;
     }else{
         header.style.backgroundImage = "url('assets/images/universo3.jpg')";
         imagemAtual = 1
@@ -19,7 +19,6 @@ function trocarImagem(){
 }
 
 trocarImagem();
-
 
 
 function mudarOpacidadeBotao(sobreBotao){
