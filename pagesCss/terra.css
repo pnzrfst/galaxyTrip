@@ -8,7 +8,7 @@
 body{
     margin: 0;
 }
-
+/*----------------------------------------------------------------*/
 header{
     background-image: url("../assets/images/terraPage.jpg");
     background-size: cover;
@@ -17,49 +17,38 @@ header{
     text-align: center;
     justify-content: space-around;
     padding: 10px 0 40px;
-    height: 450px;
-    color: #A8AFCB;
+    height: 500px;
     margin: 0;
 }
 
 #infosTerra h1{
     font-family: "Berkshire Swash", serif;
     font-weight: bold;
-    font-size: 145px;
-    text-shadow: 0 0 4px rgb(53, 59, 65);
+    font-size: 200px;
+    color: #e4e4e4;
+    text-shadow: 0 0 5px #f0f0fd;
     margin: 0px;
 }
 
 
-#infosTerra p{
-    font-family: "Playfair Display", serif;
-    font-size: 30px;
-    text-shadow: 0 2px 4px rgb(17, 16, 16);
-    color: #A8AFCB;
-    margin: 0px;
-}
-
+/*----------------------------------------*/
 main{
-    margin: 2px 0 2px 0;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
     align-items: center;
     background: #f0f0fd;
 }
 
+
 main #coisasDaTerra{
     margin-top: 25px;
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
     padding: 5px;
 }
 
-main #imgPlaneta{
-    padding: 10px;
-    margin-top: 25px;
-}
-
+/*----------------------------------------*/
 .infoTopo, .infoCentro, .infoBaixo{
     text-align: center;
     padding: 10px;
@@ -69,11 +58,40 @@ main #imgPlaneta{
 }
 
 .infoTopo h3, .infoCentro h3, .infoBaixo h3{
-    font-size: 28px;
-    border-radius: 4px;
+    font-size: 35px;
+    border-radius: 6px;
     background-color: #a8afcb;
 }
 
 .infoTopo p, .infoCentro p, .infoBaixo p{
-    font-size: 18px;
+    font-size: 25px;
+}
+/*-------------------------------------------------*/
+
+aside{
+    align-items: center;
+    background-color: rgba(220, 244, 252, 0.986);
+}
+
+
+
+aside #explicacaoAbaixo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    color: #2B3259;
+    overflow: hidden;
+}
+
+
+aside #paragrafoExplicacao{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+    width: 50%;
+    font-weight: bold;
 }
