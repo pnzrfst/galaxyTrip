@@ -1,1 +1,1 @@
-the galaxyTrip is a website that envolves some kinda of information of the our universe.
+the galaxyTrip is a website that envolves some kinda of information of the universe.
