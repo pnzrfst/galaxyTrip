@@ -41,6 +41,13 @@ header{
 }
 
 
+.titulo{
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    font-size: 100px;
+    text-shadow: 0 0 4px black;
+}
+
 #planetaTerra{
     background-image: url("assets/images/terra.jpg");
     background-size: cover;
@@ -56,12 +63,6 @@ header{
     padding: 10px 20px 10px;
 }
 
-#planetaTerra #titulo{
-    font-family: "Playfair Display", serif;
-    margin: 0;
-    font-size: 100px;
-    text-shadow: 0 0 4px black;
-}
 
 #terra-btn{
     background-color: #8b93b6;
@@ -93,12 +94,6 @@ header{
     padding: 10px 20px 10px;
 }
 
-#planetaSaturno #titulo{
-    font-family: "Playfair Display", serif;
-    margin: 0px;
-    font-size: 100px;
-    text-shadow: 0 0 4px black;
-}
 
 #saturno-btn{
     background-color: #aba291;
@@ -115,7 +110,7 @@ header{
 
 
 #planetaMarte{
-    background-image: url("assets/images/marte.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tharsis_and_Valles_Marineris_-_Mars_Orbiter_Mission_%2830055660701%29.png/800px-Tharsis_and_Valles_Marineris_-_Mars_Orbiter_Mission_%2830055660701%29.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -127,13 +122,6 @@ header{
     color: #fafaff;
     margin: 0;
     padding: 10px 20px 10px;
-}
-
-#planetaMarte #titulo{
-    margin: 0;
-    font-family: "Playfair Display", serif;    
-    font-size: 100px;
-    text-shadow: 0 0 4px black;
 }
 
 #marte-btn{
