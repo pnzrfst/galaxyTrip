@@ -1,97 +1,80 @@
-.berkshire-swash-regular {
-    font-family: "Berkshire Swash", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-body{
+   
+    body{
     margin: 0;
-}
-/*----------------------------------------------------------------*/
-header{
-    background-image: url("../assets/images/terraPage.jpg");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    padding: 10px 0 40px;
-    height: 500px;
-    margin: 0;
-}
-
-#infosTerra h1{
-    font-family: "Berkshire Swash", serif;
-    font-weight: bold;
-    font-size: 200px;
-    color: #e4e4e4;
-    text-shadow: 0 0 5px #f0f0fd;
-    margin: 0px;
-}
-
-
-/*----------------------------------------*/
-main{
-    display: flex;
-    align-items: center;
-    background: #f0f0fd;
-}
-
-
-main #coisasDaTerra{
-    margin-top: 25px;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding: 5px;
-}
-
-/*----------------------------------------*/
-.infoTopo, .infoCentro, .infoBaixo{
-    text-align: center;
-    padding: 10px;
-    margin: 3px;
-    font-family: "Playfair Display", serif;
-    color: #2B3259;
-}
-
-.infoTopo h3, .infoCentro h3, .infoBaixo h3{
-    font-size: 35px;
-    border-radius: 6px;
-    background-color: #a8afcb;
-}
-
-.infoTopo p, .infoCentro p, .infoBaixo p{
-    font-size: 25px;
-}
-/*-------------------------------------------------*/
-
-aside{
-    align-items: center;
-    background-color: rgba(220, 244, 252, 0.986);
-}
-
-
-
-aside #explicacaoAbaixo{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
-    padding: 5px;
-    font-family: "Playfair Display", serif;
-    color: #2B3259;
-    overflow: hidden;
-}
-
-
-aside #paragrafoExplicacao{
-    text-align: center;
-    font-size: 25px;
-    padding: 5px 10px 5px 10px;
-    width: 50%;
-    font-weight: bold;
-}
+    }
+    /*----------------------------------------------------------------*/
+    header{
+        background-image: url("../assets/images/terraPage.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        padding: 10px 0 40px;
+        height: 500px;
+    }
+    
+    #tituloPagina h1{
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 200px;
+        color: #e4e4e4;
+        text-shadow: 0 0 5px #f0f0fd;
+    }
+    
+    
+    /*----------------------------------------*/
+    .coisasDaTerra{
+        background: #000;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+    /*----------------------------------------*/
+    .infoTopo, .infoCentro, .infoBaixo{
+        text-align: center;
+        margin: 3px;
+        font-family: "Playfair Display", serif;
+        background-color: #000;
+        color: #f0f0fd;
+    }
+    
+    .infoTopo h3, .infoCentro h3, .infoBaixo h3{
+        font-size: 30px;
+        border-radius: 6px;
+    }
+    
+    .infoTopo p, .infoCentro p, .infoBaixo p{
+        font-size: 21px;
+        }
+    /*-------------------------------------------------*/
+    
+    aside{
+        align-items: center;
+        background-color: #000;
+    }
+    
+    
+    .explicacaoAbaixo{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        font-family: "Playfair Display", serif;
+        color: #fff;
+        overflow: hidden;
+    }
+    
+    
+    .explicacaoAbaixo #paragrafoExplicacao{
+        text-align: left;
+        opacity: 0.7;
+        font-size: 25px;
+        width: 50%;
+        font-weight: bold;
+    }
