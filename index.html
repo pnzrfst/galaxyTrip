@@ -6,8 +6,6 @@
     <title>galaxyTrip</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="index.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" type="text/css">
 </head>
@@ -23,14 +21,14 @@
     <main>
         <section class="opcoes">   
            <div id="planetaTerra">
-                <h3 class="titulo">Terra</h3>
+                <h3 class ="titulo" onmouseover="criarBreveResumo(event)" >Terra</h3>
                 <p class="explicarPlaneta">Terra: Onde moramos, brigamos pelo controle remoto e procuramos os óculos perdidos constantemente.</p>
                 <a href="pages/terra.html" target="_parent">
                     <button id="terra-btn"
                      type="submit">saibaMais</button></a>
            </div>
            <div id="planetaSaturno">    
-                <h3 class="titulo"  onmouseover="vaiExplicarPlaneta(this)">Saturno</h3>
+                <h3 class="titulo"  onmouseover="criarBreveResumo(event)">Saturno</h3>
                 <p class="explicarPlaneta">Saturno: O gigante com anéis, o pimpão do sistema solar, ostentando joias cósmicas exclusivas.</p>
                 <a href="pages/saturno.html" target="_parent">
                 <button id="saturno-btn"
@@ -38,7 +36,7 @@
                 </button></a>
            </div>
            <div id="planetaMarte">
-                <h3 class="titulo">Marte</h3>
+                <h3 class="titulo" onmouseover="criarBreveResumo(event)">Marte</h3>
                 <p class="explicarPlaneta">Marte: Planeta vermelho, atração turística para selfies espaciais e desastres de colonização.</p>
                 <a href="pages/marte.html"><button id="marte-btn" 
                 type="submit">saibaMais
